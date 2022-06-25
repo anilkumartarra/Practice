@@ -46,10 +46,11 @@ using namespace std;
 //struct rectangle
 class rectangle
 {
+    private:
     int length;
     int breadth;
 
-    
+    public:
     void intialise(int l,int b)
     {
         length=l;
